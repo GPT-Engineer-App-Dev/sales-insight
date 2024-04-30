@@ -33,6 +33,38 @@ const Index = () => {
             20% since last month
           </StatHelpText>
         </Stat>
+        <Stat p={5} shadow="md" border="1px" borderColor="gray.200">
+          <StatLabel>Daily Active Users (DAU)</StatLabel>
+          <StatNumber>1,200</StatNumber>
+          <StatHelpText>
+            <StatArrow type="increase" />
+            15% since yesterday
+          </StatHelpText>
+        </Stat>
+        <Stat p={5} shadow="md" border="1px" borderColor="gray.200">
+          <StatLabel>Monthly Active Users (MAU)</StatLabel>
+          <StatNumber>15,000</StatNumber>
+          <StatHelpText>
+            <StatArrow type="increase" />
+            10% since last month
+          </StatHelpText>
+        </Stat>
+        <Stat p={5} shadow="md" border="1px" borderColor="gray.200">
+          <StatLabel>Retention</StatLabel>
+          <StatNumber>85%</StatNumber>
+          <StatHelpText>
+            <StatArrow type="increase" />
+            5% improvement
+          </StatHelpText>
+        </Stat>
+        <Stat p={5} shadow="md" border="1px" borderColor="gray.200">
+          <StatLabel>Cost</StatLabel>
+          <StatNumber>$20,000</StatNumber>
+          <StatHelpText>
+            <StatArrow type="decrease" />
+            8% reduction
+          </StatHelpText>
+        </Stat>
       </SimpleGrid>
     </Box>
   );
